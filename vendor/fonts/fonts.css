@@ -1,0 +1,24 @@
+/* @font-face {
+    font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+} 
+
+ @font-face {
+    font-family: 'Inter';
+    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+    font-weight: bold;
+  } 
+*/
+ @font-face {
+  font-family: 'Inter';
+  src: url('Inter-Regular.woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Bold.woff');
+  font-weight: bold;
+} 
+

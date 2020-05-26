@@ -1,0 +1,15 @@
+.places__grid-item {
+    grid-row: 1;
+    grid-column: 2;
+    align-self: end;
+    margin-bottom: 48px;
+    max-width: 100%;
+    width: 100%;
+    }
+    
+    @media screen and (max-width: 640px) {
+      .places__grid-item {
+      visibility: hidden;
+      display: none;
+      }
+    } 

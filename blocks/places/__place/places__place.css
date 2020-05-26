@@ -1,0 +1,42 @@
+.places__place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-column-gap: 40px;
+    margin-bottom: 80px;
+    max-width: 984px;
+    }
+    
+    @media screen and (max-width: 1200px) {
+      .places__place {
+        max-width: 928px;
+        grid-template-columns: 440px 1fr;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      .places__place {
+        max-width: 720px;
+        grid-template-columns: 340px 1fr;
+        grid-column-gap: 28px;
+      }
+    }
+    
+    @media screen and (max-width: 640px) {
+      .places__place {
+        max-width: 320px;
+        grid-template-columns: 280px;
+        grid-column-gap: 0;
+        grid-row-gap: 32px;
+          
+      }
+    }
+    
+    @media screen and (max-width: 340px) {
+      .places__place {
+        max-width: 320px;
+        grid-template-columns: 100%;
+        grid-column-gap: 0;
+        grid-row-gap: 32px;
+        
+      }
+    }

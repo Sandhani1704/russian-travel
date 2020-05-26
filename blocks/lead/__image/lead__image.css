@@ -1,0 +1,8 @@
+.lead__image {
+    max-width: 100%;
+    width: 100%;
+    height: auto; 
+    -webkit-max-logical-height: 615px;
+    object-fit: contain;
+    object-position: center;
+    }

@@ -1,0 +1,22 @@
+.footer__line-item {
+    list-style: none;
+    display: inline;
+    margin-right: 18px;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .footer__line-item {
+        margin-right: 18px;
+      }
+    }
+    
+    @media screen and (max-width: 720px) {
+      .footer__line-item {
+    margin-bottom: 32px;
+    display: flex;
+      }
+    }
+      
+    .footer__line-item:last-of-type {
+    margin-right: 0;
+    }
