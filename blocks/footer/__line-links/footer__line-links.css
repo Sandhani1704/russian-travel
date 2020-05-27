@@ -3,3 +3,11 @@
     margin: 0;
     display: flex;
     }
+
+    
+
+@media screen and (max-width: 720px) {
+.footer__line-links {
+flex-direction: column;
+}
+}    
