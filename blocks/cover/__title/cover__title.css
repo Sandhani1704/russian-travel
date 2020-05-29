@@ -13,29 +13,11 @@
     margin: 0;
     z-index: 2;
     }
-    
-    @media screen and (max-width: 1024px) {
-      .cover__title {
-        left: 232px;
-        bottom: 293px;
-      }
-    }
-    
-    @media screen and (max-width: 768px) {
-      .cover__title {
-        left: 104px;
-        bottom: 213px;
-        font-size: 32px;
-      line-height: 35px;
-      }
-    }
-    
-    @media screen and (max-width: 320px) {
-      .cover__title {
-      max-width: 288px;
-      font-size: 32px;
-      line-height: 35px;
-      left: 16px;
-      bottom: 97px;
-      }
-    }
+       
+  @media screen and (max-width: 510px) {
+  .cover__title {
+  max-width: 288px;
+  font-size: 32px;
+  line-height: 35px;
+  }
+}

@@ -10,10 +10,10 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="карта России">
-            <nav header__links>
+            <nav class="header__links">
               <ul class="header__links-list">
-                <li class="header__links-item"><a href="#" class="header__lang-link header__lang-link_ru">RU</a></li>
-                <li class="header__links-item"><a href="#" class="header__lang-link header__lang-link_en">EN</a></li>
+                <li class="header__links-item"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+                <li class="header__links-item"><a href="#" class="header__lang-link">En</a></li>
               </ul>
             </nav>
         </header>
@@ -21,9 +21,7 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="lead__image-container">
-            <img class="lead__image" src="./images/lead-polka.jpg" alt="карта России">
-        </div>
+            <img class="lead__image" src="./images/lead-polka_2.png" alt="карта России">
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
 
@@ -37,11 +35,11 @@
                 места, достойные вашего отпуска.</p>
 
             <ul class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
+                <li><span class="intro__list-accent">Часовых поясов</span> 11</li>
+                <li><span class="intro__list-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li><span class="intro__list-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li><span class="intro__list-accent">Природных заповедников</span> 105</li>
+                <li><span class="intro__list-accent">Аэропортов</span> 241</li>
             </ul>
         </section>
 
@@ -55,7 +53,7 @@
             <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
             <img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="Кондратьев">
             <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
-            <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатский край">
+            <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатский край">
             <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Озеро Байкал">
             <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Ергаки">
         </section>
@@ -150,7 +148,7 @@
         </section>
 
         <section class="cover">
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay"></a>
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
                 <h3 class="cover__title">До Байкала «на собаках»</h3>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе и 
                 iframes — путешествие от столицы до Байкала на электричках.»</p>
@@ -158,7 +156,6 @@
         </section>
 
         <footer class="footer">
-          <div class="footer__conteiner">  
             <nav class="footer__line">
               <ul class="footer__line-links">
                 <li class="footer__line-item"><a class="footer__line-link" href="https://yandex.ru/maps">Карты</a></li>
@@ -169,8 +166,7 @@
               </ul>
             </nav>
             <p class="footer__author">&copy; 2020. Анна Галкина</p>
-          </div>
-        </footer>
+          </footer>
             </div>
     
 </body>

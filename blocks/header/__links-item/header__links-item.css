@@ -1,3 +1,8 @@
- .header__links-item {
-    display: flex;
-    } 
+.header__links-item {
+display: flex;
+margin-right: 18px;
+}
+    
+.header__links-item:last-child {
+margin-right: 0px;
+}

@@ -21,9 +21,17 @@
       }
     }
     
-    @media screen and (max-width: 765px) {
+    @media screen and (max-width: 768px) {
       .places {
-        padding: 64px 24px;
+        padding: 16px 24px;
+        max-width: 720px;
+        margin-bottom: 88px;
+      }
+    }
+
+    @media screen and (max-width: 640px) {
+      .places {
+        max-width: 592px;
       }
     }
     

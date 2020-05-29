@@ -6,7 +6,7 @@
     max-width: 984px;
     }
     
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1024px) {
       .places__place {
         max-width: 928px;
         grid-template-columns: 440px 1fr;
@@ -18,13 +18,14 @@
         max-width: 720px;
         grid-template-columns: 340px 1fr;
         grid-column-gap: 28px;
+        margin-bottom: 0;
       }
     }
     
     @media screen and (max-width: 640px) {
       .places__place {
-        max-width: 320px;
-        grid-template-columns: 280px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
         grid-column-gap: 0;
         grid-row-gap: 32px;
           
@@ -34,9 +35,6 @@
     @media screen and (max-width: 340px) {
       .places__place {
         max-width: 320px;
-        grid-template-columns: 100%;
-        grid-column-gap: 0;
-        grid-row-gap: 32px;
-        
+        grid-row-gap: 0px;
       }
     }

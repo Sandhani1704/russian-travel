@@ -17,14 +17,17 @@
         max-width: 720px;
         font-size: 42px;
         line-height: 46px;
+        margin-top: 72px;
       }
     }
     
     
     @media screen and (max-width: 425px) {
       .places__title {
+      max-width: 288px;
       font-size: 32px;
       line-height: 35px;
-      margin-bottom: 32px;
+      margin: 64px 16px 32px;
+        
       }
     }
