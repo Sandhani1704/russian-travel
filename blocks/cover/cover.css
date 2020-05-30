@@ -3,25 +3,13 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     max-width: 1184px;
-    min-height: 740px;
-    background-image: url('../../images/cover-trains_background.png');
     margin: 0 auto 92px;
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    z-index: 0;
     }
     
     @media screen and (max-width: 1024px) {
       .cover {
       max-width: 1024px;
-      min-height: 640px;
       padding: 0;
       }
     }
@@ -29,7 +17,6 @@
     @media screen and (max-width: 768px) {
       .cover {
       max-width: 768px;
-      min-height: 480px;
       margin-bottom: 88px;
       }
     }
@@ -37,7 +24,6 @@
     @media screen and (max-width: 320px) {
       .cover {
       max-width: 320px;
-      min-height: 200px;
       margin-top: 64px;
       margin-bottom: 64px;
       }
